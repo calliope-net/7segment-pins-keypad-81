@@ -30,9 +30,31 @@ function select (zahl: number) {
     } else if (zahl == 2) {
         Ziffer(1, 1, 0, 1, 1, 0, 1)
     } else if (zahl == 3) {
-    	
-    } else if (false) {
-    	
+        Ziffer(1, 1, 1, 1, 0, 0, 1)
+    } else if (zahl == 4) {
+        Ziffer(0, 1, 1, 0, 0, 1, 1)
+    } else if (zahl == 5) {
+        Ziffer(1, 0, 1, 1, 0, 1, 1)
+    } else if (zahl == 6) {
+        Ziffer(1, 0, 1, 1, 1, 1, 1)
+    } else if (zahl == 7) {
+        Ziffer(1, 1, 1, 0, 0, 0, 0)
+    } else if (zahl == 8) {
+        Ziffer(1, 1, 1, 1, 1, 1, 1)
+    } else if (zahl == 9) {
+        Ziffer(1, 1, 1, 1, 0, 1, 1)
+    } else if (zahl == 10) {
+        Ziffer(1, 1, 1, 0, 1, 1, 1)
+    } else if (zahl == 11) {
+        Ziffer(0, 0, 1, 1, 1, 1, 1)
+    } else if (zahl == 12) {
+        Ziffer(1, 0, 0, 1, 1, 1, 0)
+    } else if (zahl == 13) {
+        Ziffer(0, 1, 1, 1, 1, 0, 1)
+    } else if (zahl == 14) {
+        Ziffer(1, 0, 0, 1, 1, 1, 1)
+    } else if (zahl == 15) {
+        Ziffer(1, 0, 0, 0, 1, 1, 1)
     } else {
         Ziffer(0, 0, 0, 0, 0, 0, 1)
     }
