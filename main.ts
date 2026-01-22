@@ -1,8 +1,7 @@
 function GitHub () {
     pins.comment(pins.pins_text("calliope-net/7Segment-Pins-Keypad-81"))
     pins.comment(pins.pins_text("7 Segment Anzeige gelb mit Kabel, I2C Qwiic Keypad"))
-    pins.comment(pins.pins_text("1 Erweiterung laden:"))
-    pins.comment(pins.pins_text("calliope-net/pins"))
+    pins.comment(pins.pins_text("1 Erweiterung laden: calliope-net/pins"))
 }
 input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
     z += -1
